@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amrita.gpms.security_info">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="25dp"
+        android:text="Regno" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="21dp"
+        android:text="wid" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_below="@+id/textView17"
+        android:layout_marginTop="20dp"
+        android:text="gid" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="27dp"
+        android:text="Outdate" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="18dp"
+        android:text="Indate" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/textView20"
+        android:layout_marginTop="25dp"
+        android:text="Reason" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_below="@+id/textView21"
+        android:layout_marginTop="22dp"
+        android:text="Status" />
+
+    <TextView
+        android:id="@+id/tv_secreg"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_marginEnd="68dp" />
+
+    <TextView
+        android:id="@+id/tv_secwid"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_secreg"
+        android:layout_alignTop="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/tv_secgid"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView19"
+        android:layout_alignStart="@+id/tv_secwid" />
+
+    <TextView
+        android:id="@+id/tv_secoutdate"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView20"
+        android:layout_alignStart="@+id/tv_secgid" />
+
+    <TextView
+        android:id="@+id/tv_secindate"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignStart="@+id/tv_secoutdate" />
+
+    <TextView
+        android:id="@+id/tv_secrea"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_secindate"
+        android:layout_alignTop="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/tv_secstatus"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_secrea"
+        android:layout_alignTop="@+id/textView22" />
+
+    <Button
+        android:id="@+id/bt_oksec"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_secstatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@android:string/ok"
+        android:background="@drawable/backgndciryel"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

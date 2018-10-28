@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amrita.gpms.stu_data">
+
+    <TextView
+        android:id="@+id/tv_lregno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        android:text="Regno" />
+
+    <TextView
+        android:id="@+id/tv_neregno1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_lregno1"
+        android:layout_alignBottom="@+id/tv_lregno1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="42dp" />
+
+    <TextView
+        android:id="@+id/tv_lgid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_lregno1"
+        android:layout_below="@+id/tv_lregno1"
+        android:layout_marginTop="22dp"
+        android:text="Gid" />
+
+    <TextView
+        android:id="@+id/tv_lwid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_lgid1"
+        android:layout_below="@+id/tv_lgid1"
+        android:layout_marginTop="24dp"
+        android:text="Wid" />
+
+    <TextView
+        android:id="@+id/tv_lout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_lwid"
+        android:layout_below="@+id/tv_lwid"
+        android:layout_marginTop="24dp"
+        android:text="Outdate" />
+
+    <TextView
+        android:id="@+id/tv_lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_lout1"
+        android:layout_below="@+id/tv_lout1"
+        android:layout_marginTop="30dp"
+        android:text="Indate" />
+
+    <TextView
+        android:id="@+id/tv_lrea1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_lin1"
+        android:layout_below="@+id/tv_lin1"
+        android:layout_marginTop="28dp"
+        android:text="Reason" />
+
+    <TextView
+        android:id="@+id/tv_lstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_lrea1"
+        android:layout_below="@+id/tv_lrea1"
+        android:layout_marginTop="25dp"
+        android:text="Status" />
+
+    <TextView
+        android:id="@+id/tv_negid1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_lwid"
+        android:layout_alignStart="@+id/tv_neregno1"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/tv_newid"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_lwid"
+        android:layout_alignStart="@+id/tv_negid1"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/tv_neout1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_newid"
+        android:layout_alignTop="@+id/tv_lout1" />
+
+    <TextView
+        android:id="@+id/tv_nein1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_lin1"
+        android:layout_alignStart="@+id/tv_neout1"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/tv_nerea1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_lstatus"
+        android:layout_alignStart="@+id/tv_nein1" />
+
+    <TextView
+        android:id="@+id/tv_nestatus1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_lstatus"
+        android:layout_alignStart="@+id/tv_nerea1"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_nestatus1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/backgndciryel"
+        android:text="OK"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

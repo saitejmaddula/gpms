@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_stu"
+        android:icon="@drawable/baseline_person_add_black_24dp"
+        android:title="Student" />
+    <item
+        android:id="@+id/navigation_war"
+        android:icon="@drawable/baseline_person_add_black_24dp"
+        android:title="Warden" />
+    <item
+        android:id="@+id/navigation_view"
+        android:icon="@drawable/baseline_event_black_24dp"
+        android:title="View" />
+</menu>

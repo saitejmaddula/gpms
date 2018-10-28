@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amrita.gpms.adtabwar1"
+    android:id="@+id/adtabwar">
+
+
+    <EditText
+        android:id="@+id/et_adwarid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:hint="wardenid"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_adwarpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_adwarid"
+        android:layout_alignEnd="@+id/et_adwarid"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_adwarname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_adwarpwd"
+        android:layout_alignEnd="@+id/et_adwarpwd"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_adwarphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_adwarname"
+        android:layout_alignEnd="@+id/et_adwarname"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_adwaradd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_adwarphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="add" />
+</RelativeLayout>

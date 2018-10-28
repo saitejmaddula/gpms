@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adtabstu"
+    >
+
+
+
+    <EditText
+        android:id="@+id/et_adname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_adpd"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/et_adname"
+        android:layout_below="@+id/et_adname"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_adstuname"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/et_adpd"
+        android:layout_below="@+id/et_adpd"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_addept"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/et_adstuname"
+        android:layout_below="@+id/et_adstuname"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Dept"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_adyear"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/et_addept"
+        android:layout_below="@+id/et_addept"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Year"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_adphone"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/et_adyear"
+        android:layout_below="@+id/et_adyear"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_addstu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_adphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="add" />
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">gpms</string>
+    <string name="title_activity_stud_info">stud_info</string>
+    <string name="action_settings">Logout</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_stu_info">stu_info</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_student_info">student_info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Request">Request</string>
+    <string name="nav_req">Request</string>
+    <string name="nav_view">View</string>
+    <string name="title_activity_student_tab">gpms</string>
+    <string name="title_home">Request</string>
+    <string name="title_dashboard">View</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

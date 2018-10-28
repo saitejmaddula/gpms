@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amrita.gpms.admin_login"
+    android:id="@+id/admin_log">
+
+    <EditText
+        android:id="@+id/et_aduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:drawableLeft="@mipmap/rsz_user"
+        />
+
+    <Button
+        android:id="@+id/bt_adlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_adpsswd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:background="@drawable/round_bt"/>
+
+    <EditText
+        android:id="@+id/et_adpsswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:drawableLeft="@mipmap/rsz_passwd"
+        android:ems="10"
+        android:hint="Password
+"
+        android:inputType="textPassword" />
+</RelativeLayout>

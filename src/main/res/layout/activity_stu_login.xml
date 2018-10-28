@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amrita.gpms.Stu_login"
+    android:id="@+id/stu_login_lay"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/bt_login1"
+        android:layout_marginTop="48dp"
+        android:src='@drawable/logo'
+        android:id="@+id/imageView"
+        />
+
+    <EditText
+        android:id="@+id/et_username1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_password1"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="38dp"
+        android:layout_weight="1"
+        android:drawableLeft="@mipmap/rsz_user"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text|textPersonName" />
+
+    <EditText
+        android:id="@+id/et_password1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_username1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@mipmap/rsz_passwd"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/bt_login1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_password1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/round_bt"
+        android:text="login"
+        android:textColor="@android:color/white" />
+</RelativeLayout>
