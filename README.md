@@ -14,6 +14,6 @@ ii)Warden-who has authority to approve gate pass.
 iii)Student-who can request and view all his/her gate passes and  their approval status.
 iv)Security-who checks the approval status of gate pass.
 
-**Please free to check login and passwords file for various users**
+**Please free to check login and passwords file for various users in login and passwords file**
 
-**App Apk also available**
+**App Apk also available in gpms.apk file**
